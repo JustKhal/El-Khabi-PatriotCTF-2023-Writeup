@@ -1,1 +1,1 @@
-# El-Khabi-PatriotCTF-Writeup
+# El Khabi PatriotCTF Writeup
