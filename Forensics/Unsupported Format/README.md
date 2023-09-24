@@ -1,7 +1,7 @@
 # Unsupported Format
 #### Write-up author : [JustKhal](https://github.com/JustKhal)
 ## DESCRIPTION:
-
+My friend sent me a picture of his brand new computer, but something strange happened to it and now it says "Unsupported Format" when I try to open it. Can you try to help me recover the image?
 ## HINT(S):
 
 Hint 1: I hope nothing got corrupted in the transfer!
