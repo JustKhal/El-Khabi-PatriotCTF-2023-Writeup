@@ -25,4 +25,4 @@
 - [patchwork](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Rev/patchwork)
 
 ## pwn
-1. [guessinggame](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/pwn/guessinggame)
+- [guessinggame](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/pwn/guessinggame)
