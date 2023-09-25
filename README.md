@@ -1,28 +1,32 @@
 # El Khabi PatriotCTF 2023 Writeup
+## Team Member
+- [Khal aka JustKhal (Captain)](https://github.com/JustKhal)
+- [Elang aka Severable](https://github.com/Severable)
+- [Ayubi aka ayb](https://github.com/ayubi17)
 
 ## Cryptography
-- [Breakfast club](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Cryptography/Breakfast%20club)
-- [Multi-Numeral](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Cryptography/Multi-Numeral)
-- [My phone!](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Cryptography/My%20phone!)
-- [ReReCaptcha](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Cryptography/ReReCaptcha)
+- [Breakfast club](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Cryptography/Breakfast%20club) by JustKhal
+- [Multi-Numeral](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Cryptography/Multi-Numeral) by JustKhal
+- [My phone!](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Cryptography/My%20phone!) by Severable
+- [ReReCaptcha](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Cryptography/ReReCaptcha) by JustKhal
 
 ## Forensics
-- [Capybara](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Forensics/Capybara)
-- [Unsupported Format](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Forensics/Unsupported%20Format)
-- [congratualtions](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Forensics/congatulations)
+- [Capybara](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Forensics/Capybara) by JustKhal
+- [Unsupported Format](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Forensics/Unsupported%20Format) by JustKhal
+- [congratualtions](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Forensics/congatulations) by JustKhal
 
 ## Misc
-- [FlagFinder](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Misc/FlagFinder)
-- [Twins](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Misc/Twins)
-- [Uh Oh!](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Misc/Uh%20Oh!)
-- [WPA](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Misc/WPA)
+- [FlagFinder](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Misc/FlagFinder) by JustKhal
+- [Twins](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Misc/Twins) by Severable
+- [Uh Oh!](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Misc/Uh%20Oh!) by Severable
+- [WPA](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Misc/WPA) by Severable
 
 ## OSINT
-- [Rouge Access Point](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/OSINT/Rouge%20Access%20Point)
-- [Satellite Killer](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/OSINT/Satellite%20Killer)
+- [Rouge Access Point](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/OSINT/Rouge%20Access%20Point) by Severable
+- [Satellite Killer](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/OSINT/Satellite%20Killer) by Severable
 
 ## Reverse Engineering
-- [patchwork](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Rev/patchwork)
+- [patchwork](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/Rev/patchwork) by JustKhal
 
 ## pwn
-- [guessinggame](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/pwn/guessinggame)
+- [guessinggame](https://github.com/JustKhal/El-Khabi-PatriotCTF-2023-Writeup/tree/main/pwn/guessinggame) by JustKhal
