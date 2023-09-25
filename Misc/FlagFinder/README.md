@@ -12,28 +12,43 @@ All you have to do is find the flag.
 from pwn import *
 import itertools
 
-middle_charset = string.ascii_lowercase + string.digits + "_"
-
+middle_charset = string.ascii_lowercase + string.ascii_uppercase + string.digits + "_"
+middle_charset = list(middle_charset)
 middle_length = 19 - len("pctf{}")
 
 def bruteforce_string():
+    usrinput = 5
+    flginput = 5
+    default = list("aaaaaaaaaaaaa")
+    middle_part = default
+
     host = "chal.pctf.competitivecyber.club"
     port = 4757
 
-    for combination in itertools.product(middle_charset, repeat=middle_length):
-        r = remote(host, port)
-        middle_part = ''.join(combination)
-        candidate = f"pctf{{{middle_part}}}"
-        print(candidate)
-        r.sendlineafter("What is the password: ", candidate)
-        response = r.recvlineS()
+    for i in range(13):
+        for j in range(len(middle_charset)):
+            r = remote(host, port)
+            middle_part = list(middle_part)
+            middle_part[i] = middle_charset[j]
+            middle_part = "".join(middle_part)
+            candidate = f"pctf{{{middle_part}}}"
+            print(candidate)
+            r.sendlineafter("What is the password: ", candidate)
+            response = r.recvrepeatS()
+            print("usrinput =", usrinput)
+            print("User Input= ", response.count("User input"))
 
-        if response.count("User input") == 19 and response.count("Flag input") == 19:
-            log.success(f"Found correct string: {candidate}")
-            r.close()
-            return
+            if response.count("User input") == 19 and response.count("Flag input") == 19:
+                log.success(f"Found correct string: {candidate}")
+                r.close()
+                return
+            
+            if response.count("User input") > usrinput and response.count("Flag input") > flginput:
+                usrinput+=1
+                flginput+=1
+                default = middle_part
+                break
 
-        r.close()
 
 bruteforce_string()
 ```
